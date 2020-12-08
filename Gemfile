@@ -25,7 +25,11 @@ gem 'jbuilder', '~> 2.7'
 gem "bulma-rails", "~> 0.9.1"
 # Forms made easy!
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
+# A configurable and documented Rails view helper for adding gravatars into your Rails application.
+gem 'gravatar_image_tag', '~> 1.2'
 
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.7', '>= 4.7.3'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
