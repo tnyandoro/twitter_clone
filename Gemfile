@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.2'
+ruby '>=2.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
@@ -28,7 +28,13 @@ gem 'simple_form', '~> 5.0', '>= 5.0.3'
 # A configurable and documented Rails view helper for adding gravatars into your Rails application.
 gem 'gravatar_image_tag', '~> 1.2'
 
-gem 'wdm', '>= 0.1.0'
+# Listen or WDM
+
+gem 'listen'
+
+# platforms :mswin do
+#   gem "wdm", :group => [:development, :test]
+# end
 
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.7', '>= 4.7.3'
